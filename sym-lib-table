@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "wiznet")(type "KiCad")(uri "${KIPRJMOD}/wiznet.kicad_sym")(options "")(descr ""))
+  (lib (name "abracon")(type "KiCad")(uri "${KIPRJMOD}/libs/abracon.kicad_sym")(options "")(descr ""))
+  (lib (name "comchip")(type "KiCad")(uri "${KIPRJMOD}/libs/comchip.kicad_sym")(options "")(descr ""))
+  (lib (name "kinetic")(type "KiCad")(uri "${KIPRJMOD}/libs/kinetic.kicad_sym")(options "")(descr ""))
 )

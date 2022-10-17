@@ -105,17 +105,26 @@
     (path "/32af351e-30db-43fd-8004-85c42f0661d4/3b4332ae-6fe0-46d6-afcd-5d386278b3d1"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
-    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/e6a0f904-67d5-4609-b7e0-c7a22e67d4c1"
-      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/8c54f7aa-4c42-4004-a040-ebacd53b916b"
+      (reference "#PWR0123") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/244784bb-3e08-469e-a7b9-93200ef372cc"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/98b249e3-5da4-45e2-b6f0-6d109b7ba4be"
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
-    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/706d3ad2-c124-4264-b64e-4cef15d32777"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/cd95939f-09ee-442c-b428-71a56c77afc9"
+      (reference "#PWR0125") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/146e1b3d-70cf-4340-ae55-b3a160390feb"
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/6d9049d0-a1ab-4d64-a4fc-a58618f2524f"
+      (reference "#PWR0127") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/a844e6ef-683e-4d5c-86e0-bb6c2bfdb02a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/706d3ad2-c124-4264-b64e-4cef15d32777"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/32af351e-30db-43fd-8004-85c42f0661d4/04734460-2608-49de-adb3-d8ef61a0e3e2"
       (reference "C1") (unit 1) (value "4u7") (footprint "Connector_RJ:RJ45_Cetus_J1B1211CCD_Horizontal")
@@ -183,14 +192,20 @@
     (path "/32af351e-30db-43fd-8004-85c42f0661d4/a6103ebe-237e-447e-93b1-a794fad92a35"
       (reference "C22") (unit 1) (value "100n") (footprint "")
     )
-    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/5b4fef63-cb83-439c-af25-1e9a0f703530"
-      (reference "C?") (unit 1) (value "100n") (footprint "")
-    )
     (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/7feba9bc-b73a-4254-8c6a-3bceb98cba4a"
-      (reference "C?") (unit 1) (value "100n") (footprint "")
+      (reference "C23") (unit 1) (value "100n") (footprint "")
     )
-    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/c773825f-eeda-45c6-8867-9e21875cd14d"
-      (reference "J?") (unit 1) (value "J1B1211CCD") (footprint "Connector_RJ:RJ45_Cetus_J1B1211CCD_Horizontal")
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/5b4fef63-cb83-439c-af25-1e9a0f703530"
+      (reference "C24") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/2d7693f4-3f05-48ef-bdbf-cf4f005c857b"
+      (reference "C25") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/e1ef6d17-cee1-4940-8639-212cd4920914"
+      (reference "D?") (unit 1) (value "CDBHM2100L-HF") (footprint "comchip:CDBHM2100L-HF")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/0f951306-0a9b-4fd6-9adb-ede360f384bb"
+      (reference "J1") (unit 1) (value "ARJM11C7-114-BA-EW2") (footprint "")
     )
     (path "/32af351e-30db-43fd-8004-85c42f0661d4/86544649-398d-42e5-b5d7-b45b82cf3050"
       (reference "L1") (unit 1) (value "10u") (footprint "")
@@ -218,6 +233,12 @@
     )
     (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/0c68583a-59f1-4d1c-976a-dfdccca12fd0"
       (reference "R6") (unit 1) (value "49R9") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/9bbe6e9f-d958-45fe-8e0a-0bdba62e8f28"
+      (reference "R7") (unit 1) (value "330R") (footprint "")
+    )
+    (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/46b5de13-94cb-43ec-9126-292eedc1194d"
+      (reference "R8") (unit 1) (value "330R") (footprint "")
     )
     (path "/32af351e-30db-43fd-8004-85c42f0661d4/5dfebc01-82bd-47aa-889f-df4a888075f2"
       (reference "U1") (unit 1) (value "nRF5340-QKxx") (footprint "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm")

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "wiznet")(type "KiCad")(uri "${KIPRJMOD}/wiznet.kicad_sym")(options "")(descr ""))
+)

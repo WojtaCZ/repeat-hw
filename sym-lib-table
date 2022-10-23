@@ -2,4 +2,7 @@
   (lib (name "abracon")(type "KiCad")(uri "${KIPRJMOD}/libs/abracon.kicad_sym")(options "")(descr ""))
   (lib (name "comchip")(type "KiCad")(uri "${KIPRJMOD}/libs/comchip.kicad_sym")(options "")(descr ""))
   (lib (name "kinetic")(type "KiCad")(uri "${KIPRJMOD}/libs/kinetic.kicad_sym")(options "")(descr ""))
+  (lib (name "skyworks")(type "KiCad")(uri "${KIPRJMOD}/libs/skyworks.kicad_sym")(options "")(descr ""))
+  (lib (name "coilcraft")(type "KiCad")(uri "${KIPRJMOD}/libs/coilcraft.kicad_sym")(options "")(descr ""))
+  (lib (name "power_extended")(type "KiCad")(uri "${KIPRJMOD}/libs/power_extended.kicad_sym")(options "")(descr ""))
 )

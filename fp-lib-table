@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name "abracon")(type "KiCad")(uri "/home/vosahlov/data/kicad/projekty/repeat-hw/libs/abracon.pretty")(options "")(descr ""))
   (lib (name "comchip")(type "KiCad")(uri "/home/vosahlov/data/kicad/projekty/repeat-hw/libs/comchip.pretty")(options "")(descr ""))
+  (lib (name "skyworks")(type "KiCad")(uri "/home/vosahlov/data/kicad/projekty/repeat-hw/libs/skyworks.pretty")(options "")(descr ""))
+  (lib (name "coilcraft")(type "KiCad")(uri "/home/vosahlov/data/kicad/projekty/repeat-hw/libs/coilcraft.pretty")(options "")(descr ""))
 )

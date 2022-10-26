@@ -6,4 +6,5 @@
   (lib (name "coilcraft")(type "KiCad")(uri "${KIPRJMOD}/libs/coilcraft.kicad_sym")(options "")(descr ""))
   (lib (name "power_extended")(type "KiCad")(uri "${KIPRJMOD}/libs/power_extended.kicad_sym")(options "")(descr ""))
   (lib (name "wiznet")(type "KiCad")(uri "${KIPRJMOD}/libs/wiznet.kicad_sym")(options "")(descr ""))
+  (lib (name "nordic")(type "KiCad")(uri "${KIPRJMOD}/libs/nordic.kicad_sym")(options "")(descr ""))
 )

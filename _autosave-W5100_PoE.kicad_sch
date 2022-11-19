@@ -2702,6 +2702,10 @@
           (name "~{RESET}" (effects (font (size 1.27 1.27))))
           (number "48" (effects (font (size 1.27 1.27))))
         )
+        (pin passive line (at 2.54 -38.1 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "49" (effects (font (size 1.27 1.27))))
+        )
         (pin input line (at 21.59 22.86 180) (length 2.54)
           (name "RXIN" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
@@ -6505,6 +6509,7 @@
     (pin "46" (uuid 5de6c4aa-127c-421c-acbe-4c66fbfb0821))
     (pin "47" (uuid 8a57c4a6-819e-400b-b267-63705e44836a))
     (pin "48" (uuid 2f06c726-8b3a-4ec6-a30b-72a178a92bd3))
+    (pin "49" (uuid 69adc341-711c-4957-9eb4-209edc6064b9))
     (pin "5" (uuid de6a79c9-3c27-4299-8df5-60172a11669c))
     (pin "6" (uuid 7e54144c-c4fa-45fb-8771-04146c25c5a2))
     (pin "7" (uuid 3c458023-8c92-4801-b2a9-9bdc875b0601))

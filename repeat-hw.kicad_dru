@@ -1,0 +1,17 @@
+(version 1.0)
+
+(rule RF
+   (constraint clearance (min 0.5mm))
+   (condition "A.NetClass == 'RF' && A.Type == 'Track' && B.Type == 'Zone'"))
+
+(rule USB
+   (constraint clearance (min 0.5mm))
+   (condition "A.NetClass == 'USB' && A.Type == 'Track' && B.Type == 'Zone'"))
+
+(rule ETHERNET
+   (constraint clearance (min 0.8mm))
+   (condition "A.NetClass == 'ETH' && A.Type == 'Track' && B.Type == 'Zone'"))
+
+(rule ISOALTED
+   (constraint clearance (min 1mm))
+   (condition "A.NetClass == 'ISOLATED' && B.NetClass != 'ISOLATED' && (B.Type == 'Zone' || B.Type ==  'Track')"))

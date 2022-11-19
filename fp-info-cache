@@ -1,4 +1,4 @@
-20487272074969515
+20528083086742371
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63862,11 +63862,11 @@ AQFN 7mm
 74
 Package_DFN_QFN
 Nordic_AQFN-94-1EP_7x7mm_P0.4mm
-aQFN, Nordic, nRF5340
+aQFN, Nordic, nRF5340, https://infocenter.nordicsemi.com/pdf/nRF5340_PS_v1.2.pdf
 aqfn qfn nordic nrf nrf5340 aqfn94
 0
-99
-94
+103
+95
 Package_DFN_QFN
 OnSemi_DFN-8_2x2mm_P0.5mm
 DFN8 2x2, 0.5P (https://www.onsemi.com/pub/Collateral/511AT.PDF)
@@ -86029,6 +86029,69 @@ CDBHM2100L-HF
 0
 4
 4
+moje_logo
+4pin_2.54_SMD
+
+
+0
+4
+4
+moje_logo
+PinHeader_1x04_P2.54mm_Horizontal
+Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x04 2.54mm single row
+0
+4
+4
+moje_logo
+PinHeader_1x04_P2.54mm_Horizontal_mirror
+Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x04 2.54mm single row
+0
+4
+4
+moje_logo
+logo
+
+
+0
+0
+0
+moje_logo
+logo_8
+
+
+0
+0
+0
+moje_logo
+logo_12
+
+
+0
+0
+0
+moje_logo
+logo_16
+
+
+0
+0
+0
+moje_logo
+logo_32
+
+
+0
+0
+0
+murrata
+MM8130-2600
+
+
+0
+6
+3
 skyworks
 Skyworks_QFN-20_1EP5x5mm_P0.8mm_EP2.7x2.7mm
 

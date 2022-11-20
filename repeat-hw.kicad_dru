@@ -20,4 +20,15 @@
    (constraint hole_clearance (min 0.05mm))
    (constraint via_diameter (min 0.3mm))
    (constraint clearance (min 0.05mm))
+   (constraint annular_width (min 0.05mm))
+   (constraint hole_to_hole (min 0.2mm))
    (condition "A.Type == 'Via' && A.insideCourtyard('U1') && A.Diameter == 0.3mm"))
+
+(rule "SOICBITE" 
+	(constraint hole_clearance (min 0.05mm))
+	(condition "A.insideCourtyard('J4') && (A.Type == 'Track' || B.Type == 'Track')"))
+
+(rule "ISOLATED_CAPS_TO_EDGE" 
+	(constraint edge_clearance (min 0.05mm))
+	(condition "A.insideCourtyard('C28') || A.insideCourtyard('C29')"))
+

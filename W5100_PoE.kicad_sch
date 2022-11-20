@@ -2790,6 +2790,7 @@
     )
   )
 
+
   (junction (at 270.51 175.26) (diameter 0) (color 0 0 0 0)
     (uuid 01aa8a05-cb1a-432b-9ea4-0d45a921e7be)
   )
@@ -4540,10 +4541,6 @@
   (label "RD+" (at 215.9 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4257f9d0-20ed-4239-8810-a46c511ce4da)
-  )
-  (label "CON_RD+" (at 411.48 132.08 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 45387e88-e0d2-4172-9d67-30dfae72baae)
   )
   (label "ESD_RD+" (at 135.255 198.755 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))

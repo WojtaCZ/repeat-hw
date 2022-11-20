@@ -34,7 +34,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.5,
+          "height": 3.8,
           "width": 2.0
         },
         "silk_line_width": 0.15,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -120,6 +120,7 @@
       },
       "track_widths": [
         0.0,
+        0.1,
         0.3,
         0.4
       ],
@@ -127,6 +128,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -412,18 +417,18 @@
         "microvia_drill": 0.1,
         "name": "ISOLATED",
         "nets": [
+          "Earth",
           "Net-(C28-Pad2)",
-          "Net-(C29-Pad2)",
-          "Net-(C32-Pad2)",
+          "Net-(C31-Pad2)",
           "Net-(C34-Pad1)",
           "Net-(C36-Pad1)",
           "Net-(C44-Pad2)",
-          "Net-(C45-Pad2)",
           "Net-(C48-Pad2)",
           "Net-(C50-Pad2)",
           "Net-(C54-Pad2)",
           "Net-(C61-Pad2)",
           "Net-(D5-Pad2)",
+          "Net-(D6-Pad1)",
           "Net-(FB4-Pad2)",
           "Net-(FB5-Pad2)",
           "Net-(FB6-Pad2)",
@@ -451,16 +456,17 @@
         "microvia_drill": 0.1,
         "name": "RF",
         "nets": [
+          "Net-(AE1-Pad1)",
           "Net-(C13-Pad1)",
           "Net-(C5-Pad1)",
           "Net-(C63-Pad1)",
           "Net-(C64-Pad1)",
           "Net-(C65-Pad1)",
           "Net-(C68-Pad1)",
-          "Net-(L5-Pad2)",
-          "Net-(L6-Pad2)",
           "Net-(L7-Pad2)",
-          "Net-(L8-Pad2)"
+          "Net-(L8-Pad2)",
+          "Net-(TP1-PadA)",
+          "Net-(TP2-PadA)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

@@ -5283,7 +5283,7 @@
   (symbol (lib_id "Device:C") (at 220.98 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b2cdb508-e037-4325-8bd7-acc30cde1a17)
-    (property "Reference" "C?" (id 0) (at 224.79 35.5599 0)
+    (property "Reference" "C58" (id 0) (at 224.79 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (id 1) (at 224.79 38.0999 0)
@@ -6653,6 +6653,9 @@
     (path "/674f6a88-a401-4e05-bd3a-e4f328054731"
       (reference "C57") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/b2cdb508-e037-4325-8bd7-acc30cde1a17"
+      (reference "C58") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/01a0d8c5-859a-4d96-9336-4d8c0caf02dd/2d2d6887-f213-4625-89f7-11677df2f36b"
       (reference "C59") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -6730,9 +6733,6 @@
     )
     (path "/fd7438b0-75b7-4cfb-84e9-230167171c95"
       (reference "C84") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/b2cdb508-e037-4325-8bd7-acc30cde1a17"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/9fc025c2-ef9d-4875-8369-89248e04bab7"
       (reference "D1") (unit 1) (value "BAV99") (footprint "Package_TO_SOT_SMD:SOT-23")

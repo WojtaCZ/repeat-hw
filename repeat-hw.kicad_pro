@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.8,
-          "width": 2.0
+          "drill": 0.3,
+          "height": 0.8,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -123,6 +123,7 @@
         0.1,
         0.3,
         0.4,
+        0.9,
         1.0
       ],
       "via_dimensions": [
@@ -464,10 +465,10 @@
           "Net-(C64-Pad1)",
           "Net-(C65-Pad1)",
           "Net-(C68-Pad1)",
+          "Net-(L5-Pad2)",
+          "Net-(L6-Pad2)",
           "Net-(L7-Pad2)",
-          "Net-(L8-Pad2)",
-          "Net-(TP1-PadA)",
-          "Net-(TP2-PadA)"
+          "Net-(L8-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

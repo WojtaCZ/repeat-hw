@@ -1,3 +1,9 @@
 repeat-hw-backups
 #auto_saved_files#
 *.svg
+gerbers/
+bom/
+libs/
+*.pretty
+*.bak
+*.ods
